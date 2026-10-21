@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "description": "Default CareerLens scoring configuration. Bump 'version' whenever any value changes so saved reports stay interpretable.",
+  "weights": {
+    "required_skills": 0.35,
+    "preferred_skills": 0.10,
+    "semantic": 0.20,
+    "projects": 0.15,
+    "experience": 0.10,
+    "evidence": 0.10
+  },
+  "partial_credit": 0.4,
+  "preferred_requirement_weight": 0.5,
+  "evidence_strength": {
+    "demonstrated": 1.0,
+    "mentioned": 0.7,
+    "listed": 0.5
+  },
+  "similarity_floor": 0.20,
+  "similarity_ceiling": 0.70,
+  "strong_similarity": 0.55,
+  "moderate_similarity": 0.40,
+  "semantic_hint_similarity": 0.50,
+  "project_skill_weight": 0.6,
+  "project_semantic_weight": 0.4,
+  "project_top_k_statements": 3,
+  "project_union_top_n": 3,
+  "experience_responsibility_weight": 0.7,
+  "experience_years_weight": 0.3
+}

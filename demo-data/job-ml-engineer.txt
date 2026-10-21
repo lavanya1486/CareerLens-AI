@@ -1,0 +1,19 @@
+Machine Learning Engineer (Junior)
+
+Responsibilities
+- Build and deploy NLP models that classify customer support tickets.
+- Develop data pipelines in Python using pandas and NumPy.
+- Serve models through FastAPI microservices running on Kubernetes.
+- Monitor model performance and retrain models when data drifts.
+
+Required qualifications
+- 2+ years of experience building machine learning systems.
+- Strong Python skills and experience with PyTorch or TensorFlow.
+- Hands-on experience with Hugging Face Transformers and sentence embeddings.
+- Solid understanding of SQL and data analysis.
+- Experience with Docker and AWS.
+
+Preferred qualifications
+- AWS Certified Machine Learning - Specialty certification.
+- Experience with MLflow, Airflow or similar tooling.
+- Master's degree in Computer Science, Statistics or a related field.

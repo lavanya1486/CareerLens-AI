@@ -1,0 +1,5 @@
+{
+ "code": "MALFORMED_DOCUMENT",
+ "message": "The PDF could not be read. It may be damaged or malformed. Try re-exporting it, or paste the text manually.",
+ "details": []
+}

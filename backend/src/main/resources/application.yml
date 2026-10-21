@@ -1,0 +1,174 @@
+spring:
+  application:
+    name: careerlens-backend
+  profiles:
+    default: dev
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/careerlens}
+    username: ${DATABASE_USERNAME:careerlens}
+    password: ${DATABASE_PASSWORD:careerlens_dev}
+    hikari:
+      maximum-pool-size: ${DATABASE_POOL_SIZE:10}
+      minimum-idle: 2
+      connection-timeout: 10000
+      max-lifetime: 1500000
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+          batch_size: 50
+        order_inserts: true
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    validate-on-migrate: true
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 6MB
+      # Keep uploads in memory so resume PDFs never touch the filesystem.
+      file-size-threshold: 6MB
+  jackson:
+    default-property-inclusion: always
+    serialization:
+      write-dates-as-timestamps: false
+  mvc:
+    problemdetails:
+      enabled: false
+  lifecycle:
+    timeout-per-shutdown-phase: 20s
+
+server:
+  port: ${PORT:8082}
+  shutdown: graceful
+  forward-headers-strategy: framework
+  error:
+    include-message: never
+    include-stacktrace: never
+  tomcat:
+    max-swallow-size: 6MB
+    connection-timeout: 20s
+    threads:
+      max: 50
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      show-details: never
+      show-components: always
+      group:
+        readiness:
+          include: readinessState,db
+        liveness:
+          include: livenessState
+  health:
+    diskspace:
+      enabled: false
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: CareerLens AI Backend
+    version: 1.0.0
+
+springdoc:
+  api-docs:
+    path: /api/v3/api-docs
+  swagger-ui:
+    path: /api/docs
+    csrf:
+      enabled: true
+      cookie-name: XSRF-TOKEN
+      header-name: X-XSRF-TOKEN
+  packages-to-scan: com.careerlens
+
+app:
+  frontend-origins: ${APP_CORS_ALLOWED_ORIGINS:http://localhost:5173}
+  jwt:
+    secret: ${JWT_SECRET:}
+    expiration-minutes: ${JWT_EXPIRATION_MINUTES:60}
+    issuer: careerlens
+  cookie:
+    name: careerlens_session
+    secure: ${COOKIE_SECURE:false}
+    # Strict|Lax|None. None (+ COOKIE_PARTITIONED=true, COOKIE_SECURE=true) only for cross-site embedded previews.
+    same-site: ${COOKIE_SAME_SITE:Lax}
+    partitioned: ${COOKIE_PARTITIONED:false}
+  ai-service:
+    base-url: ${AI_SERVICE_URL:http://localhost:8000}
+    api-key: ${AI_SERVICE_API_KEY:}
+    connect-timeout: 3s
+    read-timeout: ${AI_SERVICE_READ_TIMEOUT:75s}
+    max-attempts: 2
+    retry-backoff: 400ms
+  limits:
+    max-json-body-bytes: 262144
+    max-resume-chars: 40000
+    max-job-description-chars: 20000
+    max-resumes-per-user: 20
+  rate-limits:
+    auth-per-minute: 10
+    upload-per-minute: 10
+    analysis-per-minute: 6
+    extract-per-minute: 30
+    report-per-minute: 30
+  retention:
+    draft-hours: 24
+    cleanup-cron: "0 15 * * * *"
+
+logging:
+  level:
+    root: INFO
+    com.careerlens: INFO
+    org.hibernate.SQL: WARN
+  pattern:
+    console: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX} %-5level [%X{requestId:-}] [%X{userId:-}] %logger{36} - %msg%n"
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+logging:
+  level:
+    com.careerlens: DEBUG
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+  datasource:
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
+app:
+  frontend-origins: ${APP_CORS_ALLOWED_ORIGINS}
+  jwt:
+    secret: ${JWT_SECRET}
+  cookie:
+    secure: ${COOKIE_SECURE:true}
+  ai-service:
+    base-url: ${AI_SERVICE_URL}
+    api-key: ${AI_SERVICE_API_KEY}
+springdoc:
+  swagger-ui:
+    enabled: ${API_DOCS_ENABLED:false}
+  api-docs:
+    enabled: ${API_DOCS_ENABLED:false}
+logging:
+  structured:
+    format:
+      console: ecs

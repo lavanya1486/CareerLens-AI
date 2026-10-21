@@ -1,0 +1,1727 @@
+{
+ "analysis_version": "2026.10",
+ "scoring_version": "1.0.0",
+ "taxonomy_version": "2026.10.2",
+ "model": {
+  "name": "sentence-transformers/all-MiniLM-L6-v2",
+  "provider": "fastembed (ONNX Runtime, local CPU inference)",
+  "dimension": 384
+ },
+ "overall_score": 63.1,
+ "score_band": "good",
+ "summary": "Good alignment (63/100). 10 of 14 required skills are explicitly evidenced; your most relevant project is \"Campus Library Management System\".",
+ "components": [
+  {
+   "key": "required_skills",
+   "label": "Required skill coverage",
+   "score": 74.3,
+   "weight": 0.35,
+   "effective_weight": 0.35,
+   "contribution": 26.0,
+   "available": true,
+   "explanation": "10 of 14 required skills matched explicitly, 1 partially (40% credit each)."
+  },
+  {
+   "key": "preferred_skills",
+   "label": "Preferred skill coverage",
+   "score": 50.0,
+   "weight": 0.1,
+   "effective_weight": 0.1,
+   "contribution": 5.0,
+   "available": true,
+   "explanation": "2 of 4 preferred skills matched explicitly."
+  },
+  {
+   "key": "semantic",
+   "label": "Semantic similarity",
+   "score": 47.1,
+   "weight": 0.2,
+   "effective_weight": 0.2,
+   "contribution": 9.42,
+   "available": true,
+   "explanation": "Average calibrated similarity between 12 job requirement statements and their closest resume line: 47."
+  },
+  {
+   "key": "projects",
+   "label": "Project relevance",
+   "score": 46.6,
+   "weight": 0.15,
+   "effective_weight": 0.15,
+   "contribution": 6.99,
+   "available": true,
+   "explanation": "Your top 3 project(s) together demonstrate 7 of 18 skill requirements (38% weighted coverage); the most aligned project has a semantic score of 60. Score = 0.6 \u00d7 coverage + 0.4 \u00d7 semantic."
+  },
+  {
+   "key": "experience",
+   "label": "Experience & responsibility alignment",
+   "score": 70.8,
+   "weight": 0.1,
+   "effective_weight": 0.1,
+   "contribution": 7.08,
+   "available": true,
+   "explanation": "Responsibility alignment 58 (weight 0.7) combined with experience-duration fit 100 (weight 0.3)."
+  },
+  {
+   "key": "evidence",
+   "label": "Evidence strength",
+   "score": 86.4,
+   "weight": 0.1,
+   "effective_weight": 0.1,
+   "contribution": 8.64,
+   "available": true,
+   "explanation": "9 of 12 matched skills are demonstrated in projects or experience; skills only listed in a skills section count for less."
+  }
+ ],
+ "calculation": [
+  "Required skill coverage: 74.3 \u00d7 0.350 = 26.00",
+  "Preferred skill coverage: 50.0 \u00d7 0.100 = 5.00",
+  "Semantic similarity: 47.1 \u00d7 0.200 = 9.42",
+  "Project relevance: 46.6 \u00d7 0.150 = 6.99",
+  "Experience & responsibility alignment: 70.8 \u00d7 0.100 = 7.08",
+  "Evidence strength: 86.4 \u00d7 0.100 = 8.64",
+  "Overall alignment = sum of contributions = 63.1 / 100"
+ ],
+ "requirements": {
+  "suggested_title": "Java Backend Developer Intern",
+  "skills": [
+   {
+    "skill": "Java",
+    "category": "language",
+    "category_label": "Programming language",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Design and develop RESTful APIs using Java and Spring Boot.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "SQL",
+    "category": "language",
+    "category_label": "Programming language",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Work with PostgreSQL to model data and write efficient SQL queries.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "Hibernate",
+    "category": "framework",
+    "category_label": "Framework",
+    "importance": "required",
+    "alternatives": [
+     "JPA"
+    ],
+    "evidence": "Experience with Spring Boot and Hibernate or JPA.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "Spring Boot",
+    "category": "framework",
+    "category_label": "Framework",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Design and develop RESTful APIs using Java and Spring Boot.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "PostgreSQL",
+    "category": "database",
+    "category_label": "Database",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Work with PostgreSQL to model data and write efficient SQL queries.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "Git",
+    "category": "tool",
+    "category_label": "Development tool",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Experience with Git and Maven.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "Maven",
+    "category": "tool",
+    "category_label": "Development tool",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Experience with Git and Maven.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "CI/CD",
+    "category": "concept",
+    "category_label": "Engineering concept",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Participate in code reviews and help improve CI/CD pipelines.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "Integration Testing",
+    "category": "concept",
+    "category_label": "Engineering concept",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Write unit and integration tests to keep our services reliable.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "JSON",
+    "category": "concept",
+    "category_label": "Engineering concept",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Understanding of REST APIs and JSON.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "Object-Oriented Programming",
+    "category": "concept",
+    "category_label": "Engineering concept",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Strong knowledge of Java and object-oriented programming.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "REST APIs",
+    "category": "concept",
+    "category_label": "Engineering concept",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Design and develop RESTful APIs using Java and Spring Boot.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "Agile",
+    "category": "methodology",
+    "category_label": "Methodology",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Collaborate with frontend engineers and product managers in an Agile team.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "Code Review",
+    "category": "methodology",
+    "category_label": "Methodology",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Participate in code reviews and help improve CI/CD pipelines.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "React",
+    "category": "framework",
+    "category_label": "Framework",
+    "importance": "preferred",
+    "alternatives": [],
+    "evidence": "Familiarity with React is a plus.",
+    "confidence": 0.9,
+    "custom": false
+   },
+   {
+    "skill": "AWS",
+    "category": "cloud",
+    "category_label": "Cloud / hosting",
+    "importance": "preferred",
+    "alternatives": [],
+    "evidence": "Exposure to AWS.",
+    "confidence": 0.9,
+    "custom": false
+   },
+   {
+    "skill": "Docker",
+    "category": "devops",
+    "category_label": "DevOps / deployment",
+    "importance": "preferred",
+    "alternatives": [
+     "Kubernetes"
+    ],
+    "evidence": "Experience with Docker or Kubernetes.",
+    "confidence": 0.9,
+    "custom": false
+   },
+   {
+    "skill": "Apache Kafka",
+    "category": "tool",
+    "category_label": "Development tool",
+    "importance": "preferred",
+    "alternatives": [
+     "RabbitMQ"
+    ],
+    "evidence": "Knowledge of Kafka or RabbitMQ.",
+    "confidence": 0.9,
+    "custom": false
+   }
+  ],
+  "competencies": [
+   {
+    "skill": "Communication",
+    "category": "competency",
+    "category_label": "Competency",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Good communication and problem-solving skills.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "Problem Solving",
+    "category": "competency",
+    "category_label": "Competency",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Good communication and problem-solving skills.",
+    "confidence": 0.85,
+    "custom": false
+   },
+   {
+    "skill": "Teamwork",
+    "category": "competency",
+    "category_label": "Competency",
+    "importance": "required",
+    "alternatives": [],
+    "evidence": "Collaborate with frontend engineers and product managers in an Agile team.",
+    "confidence": 0.85,
+    "custom": false
+   }
+  ],
+  "responsibilities": [
+   "Design and develop RESTful APIs using Java and Spring Boot.",
+   "Write unit and integration tests to keep our services reliable.",
+   "Work with PostgreSQL to model data and write efficient SQL queries.",
+   "Collaborate with frontend engineers and product managers in an Agile team.",
+   "Participate in code reviews and help improve CI/CD pipelines."
+  ],
+  "requirement_statements": [
+   {
+    "text": "Pursuing or recently completed a Bachelor's degree in Computer Science or a related field.",
+    "importance": "required"
+   },
+   {
+    "text": "Strong knowledge of Java and object-oriented programming.",
+    "importance": "required"
+   },
+   {
+    "text": "Experience with Spring Boot and Hibernate or JPA.",
+    "importance": "required"
+   },
+   {
+    "text": "Familiarity with relational databases such as PostgreSQL.",
+    "importance": "required"
+   },
+   {
+    "text": "Understanding of REST APIs and JSON.",
+    "importance": "required"
+   },
+   {
+    "text": "Experience with Git and Maven.",
+    "importance": "required"
+   },
+   {
+    "text": "0-1 years of professional experience.",
+    "importance": "required"
+   },
+   {
+    "text": "Good communication and problem-solving skills.",
+    "importance": "required"
+   },
+   {
+    "text": "Experience with Docker or Kubernetes.",
+    "importance": "preferred"
+   },
+   {
+    "text": "Exposure to AWS.",
+    "importance": "preferred"
+   },
+   {
+    "text": "Knowledge of Kafka or RabbitMQ.",
+    "importance": "preferred"
+   },
+   {
+    "text": "Familiarity with React is a plus.",
+    "importance": "preferred"
+   }
+  ],
+  "experience": [
+   {
+    "min_years": 0.0,
+    "max_years": 1.0,
+    "text": "0-1 years of professional experience."
+   }
+  ],
+  "education": [
+   "Pursuing or recently completed a Bachelor's degree in Computer Science or a related field."
+  ],
+  "certifications": [],
+  "sections_detected": [
+   "Introduction",
+   "About",
+   "Responsibilities",
+   "Requirements",
+   "Preferred qualifications",
+   "Benefits"
+  ],
+  "warnings": []
+ },
+ "skill_matches": [
+  {
+   "skill": "Java",
+   "category": "language",
+   "category_label": "Programming language",
+   "importance": "required",
+   "alternatives": [],
+   "status": "matched",
+   "matched_via": "Java",
+   "credit": 1.0,
+   "confidence": 0.95,
+   "job_evidence": "Design and develop RESTful APIs using Java and Spring Boot.",
+   "resume_evidence": [
+    {
+     "text": "Built REST APIs in Java with Spring Boot for an internal loan-tracking dashboard used by 40 analysts.",
+     "section": "experience",
+     "section_label": "Experience"
+    },
+    {
+     "text": "Campus Library Management System | Java, Spring Boot, MySQL, Hibernate",
+     "section": "projects",
+     "section_label": "Projects"
+    },
+    {
+     "text": "Computer science student focused on backend engineering with Java and Spring Boot. Enjoys designing clean REST APIs, writing tests and deploying small services with Docker.",
+     "section": "summary",
+     "section_label": "Summary"
+    }
+   ],
+   "evidence_strength": "demonstrated",
+   "related_resume_skills": [],
+   "reasoning": "Matches the required skill. Java is used in your Experience, Projects, Summary content, which demonstrates it in context.",
+   "next_step": "Keep this evidence prominent and quantify the outcome where you truthfully can.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "SQL",
+   "category": "language",
+   "category_label": "Programming language",
+   "importance": "required",
+   "alternatives": [],
+   "status": "matched",
+   "matched_via": "SQL",
+   "credit": 1.0,
+   "confidence": 0.85,
+   "job_evidence": "Work with PostgreSQL to model data and write efficient SQL queries.",
+   "resume_evidence": [
+    {
+     "text": "Languages: Java, Python, SQL, JavaScript",
+     "section": "skills",
+     "section_label": "Skills"
+    }
+   ],
+   "evidence_strength": "listed",
+   "related_resume_skills": [],
+   "reasoning": "Matches the required skill. SQL appears only in your skills list, without supporting project or work evidence.",
+   "next_step": "Add a project or experience bullet showing how you applied SQL, if that is accurate.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "Hibernate",
+   "category": "framework",
+   "category_label": "Framework",
+   "importance": "required",
+   "alternatives": [
+    "JPA"
+   ],
+   "status": "matched",
+   "matched_via": "Hibernate",
+   "credit": 1.0,
+   "confidence": 0.95,
+   "job_evidence": "Experience with Spring Boot and Hibernate or JPA.",
+   "resume_evidence": [
+    {
+     "text": "Modelled 8 relational tables with Hibernate and wrote integration tests for the borrowing workflow.",
+     "section": "projects",
+     "section_label": "Projects"
+    },
+    {
+     "text": "Campus Library Management System | Java, Spring Boot, MySQL, Hibernate",
+     "section": "projects",
+     "section_label": "Projects"
+    },
+    {
+     "text": "Frameworks: Spring Boot, Hibernate, React, Flask",
+     "section": "skills",
+     "section_label": "Skills"
+    }
+   ],
+   "evidence_strength": "demonstrated",
+   "related_resume_skills": [],
+   "reasoning": "Matches the required skill. Hibernate is used in your Projects, Skills content, which demonstrates it in context.",
+   "next_step": "Keep this evidence prominent and quantify the outcome where you truthfully can.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "Spring Boot",
+   "category": "framework",
+   "category_label": "Framework",
+   "importance": "required",
+   "alternatives": [],
+   "status": "matched",
+   "matched_via": "Spring Boot",
+   "credit": 1.0,
+   "confidence": 0.95,
+   "job_evidence": "Design and develop RESTful APIs using Java and Spring Boot.",
+   "resume_evidence": [
+    {
+     "text": "Built REST APIs in Java with Spring Boot for an internal loan-tracking dashboard used by 40 analysts.",
+     "section": "experience",
+     "section_label": "Experience"
+    },
+    {
+     "text": "Campus Library Management System | Java, Spring Boot, MySQL, Hibernate",
+     "section": "projects",
+     "section_label": "Projects"
+    },
+    {
+     "text": "Computer science student focused on backend engineering with Java and Spring Boot. Enjoys designing clean REST APIs, writing tests and deploying small services with Docker.",
+     "section": "summary",
+     "section_label": "Summary"
+    }
+   ],
+   "evidence_strength": "demonstrated",
+   "related_resume_skills": [],
+   "reasoning": "Matches the required skill. Spring Boot is used in your Experience, Projects, Summary content, which demonstrates it in context.",
+   "next_step": "Keep this evidence prominent and quantify the outcome where you truthfully can.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "PostgreSQL",
+   "category": "database",
+   "category_label": "Database",
+   "importance": "required",
+   "alternatives": [],
+   "status": "partial",
+   "matched_via": null,
+   "credit": 0.4,
+   "confidence": 0.6,
+   "job_evidence": "Work with PostgreSQL to model data and write efficient SQL queries.",
+   "resume_evidence": [
+    {
+     "text": "Optimised slow MySQL queries by adding indexes, reducing report generation time from 9s to 2s.",
+     "section": "experience",
+     "section_label": "Experience"
+    }
+   ],
+   "evidence_strength": "none",
+   "related_resume_skills": [
+    "MySQL"
+   ],
+   "reasoning": "Partial match: MySQL and PostgreSQL are both relational SQL databases, but they are distinct technologies. Transferable experience earns 40% credit, not a full match.",
+   "next_step": "If you have used PostgreSQL, name it explicitly with an example. Otherwise, present your MySQL experience as transferable and consider learning PostgreSQL.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "Git",
+   "category": "tool",
+   "category_label": "Development tool",
+   "importance": "required",
+   "alternatives": [],
+   "status": "matched",
+   "matched_via": "Git",
+   "credit": 1.0,
+   "confidence": 0.85,
+   "job_evidence": "Experience with Git and Maven.",
+   "resume_evidence": [
+    {
+     "text": "Tools: Git, GitHub, Maven, Postman, Linux, IntelliJ IDEA",
+     "section": "skills",
+     "section_label": "Skills"
+    }
+   ],
+   "evidence_strength": "listed",
+   "related_resume_skills": [],
+   "reasoning": "Matches the required skill. Git appears only in your skills list, without supporting project or work evidence.",
+   "next_step": "Add a project or experience bullet showing how you applied Git, if that is accurate.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "Maven",
+   "category": "tool",
+   "category_label": "Development tool",
+   "importance": "required",
+   "alternatives": [],
+   "status": "matched",
+   "matched_via": "Maven",
+   "credit": 1.0,
+   "confidence": 0.85,
+   "job_evidence": "Experience with Git and Maven.",
+   "resume_evidence": [
+    {
+     "text": "Tools: Git, GitHub, Maven, Postman, Linux, IntelliJ IDEA",
+     "section": "skills",
+     "section_label": "Skills"
+    }
+   ],
+   "evidence_strength": "listed",
+   "related_resume_skills": [],
+   "reasoning": "Matches the required skill. Maven appears only in your skills list, without supporting project or work evidence.",
+   "next_step": "Add a project or experience bullet showing how you applied Maven, if that is accurate.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "CI/CD",
+   "category": "concept",
+   "category_label": "Engineering concept",
+   "importance": "required",
+   "alternatives": [],
+   "status": "missing",
+   "matched_via": null,
+   "credit": 0.0,
+   "confidence": 0.85,
+   "job_evidence": "Participate in code reviews and help improve CI/CD pipelines.",
+   "resume_evidence": [],
+   "evidence_strength": "none",
+   "related_resume_skills": [],
+   "reasoning": "No mention of CI/CD was found in the resume. A missing keyword does not prove the candidate lacks the skill - it only means the document does not show it.",
+   "next_step": "If you have CI/CD experience, add it with a concrete example. If not, CI/CD is a required skill for this role and worth learning.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "Integration Testing",
+   "category": "concept",
+   "category_label": "Engineering concept",
+   "importance": "required",
+   "alternatives": [],
+   "status": "matched",
+   "matched_via": "Integration Testing",
+   "credit": 1.0,
+   "confidence": 0.95,
+   "job_evidence": "Write unit and integration tests to keep our services reliable.",
+   "resume_evidence": [
+    {
+     "text": "Modelled 8 relational tables with Hibernate and wrote integration tests for the borrowing workflow.",
+     "section": "projects",
+     "section_label": "Projects"
+    }
+   ],
+   "evidence_strength": "demonstrated",
+   "related_resume_skills": [],
+   "reasoning": "Matches the required skill. Integration Testing is used in your Projects content, which demonstrates it in context.",
+   "next_step": "Keep this evidence prominent and quantify the outcome where you truthfully can.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "JSON",
+   "category": "concept",
+   "category_label": "Engineering concept",
+   "importance": "required",
+   "alternatives": [],
+   "status": "missing",
+   "matched_via": null,
+   "credit": 0.0,
+   "confidence": 0.85,
+   "job_evidence": "Understanding of REST APIs and JSON.",
+   "resume_evidence": [],
+   "evidence_strength": "none",
+   "related_resume_skills": [],
+   "reasoning": "No mention of JSON was found in the resume. A missing keyword does not prove the candidate lacks the skill - it only means the document does not show it.",
+   "next_step": "If you have JSON experience, add it with a concrete example. If not, JSON is a required skill for this role and worth learning.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "Object-Oriented Programming",
+   "category": "concept",
+   "category_label": "Engineering concept",
+   "importance": "required",
+   "alternatives": [],
+   "status": "missing",
+   "matched_via": null,
+   "credit": 0.0,
+   "confidence": 0.85,
+   "job_evidence": "Strong knowledge of Java and object-oriented programming.",
+   "resume_evidence": [],
+   "evidence_strength": "none",
+   "related_resume_skills": [],
+   "reasoning": "No mention of Object-Oriented Programming was found in the resume. A missing keyword does not prove the candidate lacks the skill - it only means the document does not show it.",
+   "next_step": "If you have Object-Oriented Programming experience, add it with a concrete example. If not, Object-Oriented Programming is a required skill for this role and worth learning.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "REST APIs",
+   "category": "concept",
+   "category_label": "Engineering concept",
+   "importance": "required",
+   "alternatives": [],
+   "status": "matched",
+   "matched_via": "REST APIs",
+   "credit": 1.0,
+   "confidence": 0.95,
+   "job_evidence": "Design and develop RESTful APIs using Java and Spring Boot.",
+   "resume_evidence": [
+    {
+     "text": "Built REST APIs in Java with Spring Boot for an internal loan-tracking dashboard used by 40 analysts.",
+     "section": "experience",
+     "section_label": "Experience"
+    },
+    {
+     "text": "Designed a RESTful backend with JWT authentication and role-based access for students and librarians.",
+     "section": "projects",
+     "section_label": "Projects"
+    },
+    {
+     "text": "Computer science student focused on backend engineering with Java and Spring Boot. Enjoys designing clean REST APIs, writing tests and deploying small services with Docker.",
+     "section": "summary",
+     "section_label": "Summary"
+    }
+   ],
+   "evidence_strength": "demonstrated",
+   "related_resume_skills": [],
+   "reasoning": "Matches the required skill. REST APIs is used in your Experience, Projects, Summary content, which demonstrates it in context.",
+   "next_step": "Keep this evidence prominent and quantify the outcome where you truthfully can.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "Agile",
+   "category": "methodology",
+   "category_label": "Methodology",
+   "importance": "required",
+   "alternatives": [],
+   "status": "matched",
+   "matched_via": "Agile",
+   "credit": 1.0,
+   "confidence": 0.95,
+   "job_evidence": "Collaborate with frontend engineers and product managers in an Agile team.",
+   "resume_evidence": [
+    {
+     "text": "Collaborated with a cross-functional team in two-week Agile sprints and took part in code reviews.",
+     "section": "experience",
+     "section_label": "Experience"
+    }
+   ],
+   "evidence_strength": "demonstrated",
+   "related_resume_skills": [],
+   "reasoning": "Matches the required skill. Agile is used in your Experience content, which demonstrates it in context.",
+   "next_step": "Keep this evidence prominent and quantify the outcome where you truthfully can.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "Code Review",
+   "category": "methodology",
+   "category_label": "Methodology",
+   "importance": "required",
+   "alternatives": [],
+   "status": "matched",
+   "matched_via": "Code Review",
+   "credit": 1.0,
+   "confidence": 0.95,
+   "job_evidence": "Participate in code reviews and help improve CI/CD pipelines.",
+   "resume_evidence": [
+    {
+     "text": "Collaborated with a cross-functional team in two-week Agile sprints and took part in code reviews.",
+     "section": "experience",
+     "section_label": "Experience"
+    }
+   ],
+   "evidence_strength": "demonstrated",
+   "related_resume_skills": [],
+   "reasoning": "Matches the required skill. Code Review is used in your Experience content, which demonstrates it in context.",
+   "next_step": "Keep this evidence prominent and quantify the outcome where you truthfully can.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "React",
+   "category": "framework",
+   "category_label": "Framework",
+   "importance": "preferred",
+   "alternatives": [],
+   "status": "matched",
+   "matched_via": "React",
+   "credit": 1.0,
+   "confidence": 0.95,
+   "job_evidence": "Familiarity with React is a plus.",
+   "resume_evidence": [
+    {
+     "text": "Built a React front end and a Flask API that splits shared expenses between group members.",
+     "section": "projects",
+     "section_label": "Projects"
+    },
+    {
+     "text": "Expense Splitter Web App | React, Flask, MongoDB",
+     "section": "projects",
+     "section_label": "Projects"
+    },
+    {
+     "text": "Frameworks: Spring Boot, Hibernate, React, Flask",
+     "section": "skills",
+     "section_label": "Skills"
+    }
+   ],
+   "evidence_strength": "demonstrated",
+   "related_resume_skills": [],
+   "reasoning": "Matches the preferred skill. React is used in your Projects, Skills content, which demonstrates it in context.",
+   "next_step": "Keep this evidence prominent and quantify the outcome where you truthfully can.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "AWS",
+   "category": "cloud",
+   "category_label": "Cloud / hosting",
+   "importance": "preferred",
+   "alternatives": [],
+   "status": "missing",
+   "matched_via": null,
+   "credit": 0.0,
+   "confidence": 0.85,
+   "job_evidence": "Exposure to AWS.",
+   "resume_evidence": [],
+   "evidence_strength": "none",
+   "related_resume_skills": [],
+   "reasoning": "No mention of AWS was found in the resume. A missing keyword does not prove the candidate lacks the skill - it only means the document does not show it.",
+   "next_step": "Optional: AWS is a nice-to-have. Learning it could strengthen your application.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "Docker",
+   "category": "devops",
+   "category_label": "DevOps / deployment",
+   "importance": "preferred",
+   "alternatives": [
+    "Kubernetes"
+   ],
+   "status": "matched",
+   "matched_via": "Docker",
+   "credit": 1.0,
+   "confidence": 0.95,
+   "job_evidence": "Experience with Docker or Kubernetes.",
+   "resume_evidence": [
+    {
+     "text": "Containerized the application with Docker and documented the API with Swagger.",
+     "section": "projects",
+     "section_label": "Projects"
+    },
+    {
+     "text": "Computer science student focused on backend engineering with Java and Spring Boot. Enjoys designing clean REST APIs, writing tests and deploying small services with Docker.",
+     "section": "summary",
+     "section_label": "Summary"
+    }
+   ],
+   "evidence_strength": "demonstrated",
+   "related_resume_skills": [],
+   "reasoning": "Matches the preferred skill. Docker is used in your Projects, Summary content, which demonstrates it in context.",
+   "next_step": "Keep this evidence prominent and quantify the outcome where you truthfully can.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  },
+  {
+   "skill": "Apache Kafka",
+   "category": "tool",
+   "category_label": "Development tool",
+   "importance": "preferred",
+   "alternatives": [
+    "RabbitMQ"
+   ],
+   "status": "missing",
+   "matched_via": null,
+   "credit": 0.0,
+   "confidence": 0.85,
+   "job_evidence": "Knowledge of Kafka or RabbitMQ.",
+   "resume_evidence": [],
+   "evidence_strength": "none",
+   "related_resume_skills": [],
+   "reasoning": "No mention of Apache Kafka (or RabbitMQ) was found in the resume. A missing keyword does not prove the candidate lacks the skill - it only means the document does not show it.",
+   "next_step": "Optional: Apache Kafka is a nice-to-have. Learning it could strengthen your application.",
+   "semantic_hint": null,
+   "semantic_similarity": null
+  }
+ ],
+ "resume_skills": [
+  {
+   "skill": "NLTK",
+   "category": "ai_ml",
+   "category_label": "AI / ML",
+   "sections": [
+    "projects"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "scikit-learn",
+   "category": "ai_ml",
+   "category_label": "AI / ML",
+   "sections": [
+    "projects"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Teamwork",
+   "category": "competency",
+   "category_label": "Competency",
+   "sections": [
+    "experience"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Algorithms",
+   "category": "concept",
+   "category_label": "Engineering concept",
+   "sections": [
+    "education"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Authentication",
+   "category": "concept",
+   "category_label": "Engineering concept",
+   "sections": [
+    "projects"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Data Structures",
+   "category": "concept",
+   "category_label": "Engineering concept",
+   "sections": [
+    "education"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Integration Testing",
+   "category": "concept",
+   "category_label": "Engineering concept",
+   "sections": [
+    "projects"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "JWT",
+   "category": "concept",
+   "category_label": "Engineering concept",
+   "sections": [
+    "projects"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "REST APIs",
+   "category": "concept",
+   "category_label": "Engineering concept",
+   "sections": [
+    "experience",
+    "projects",
+    "summary"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "MongoDB",
+   "category": "database",
+   "category_label": "Database",
+   "sections": [
+    "projects",
+    "skills"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "MySQL",
+   "category": "database",
+   "category_label": "Database",
+   "sections": [
+    "experience",
+    "projects",
+    "skills"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Docker",
+   "category": "devops",
+   "category_label": "DevOps / deployment",
+   "sections": [
+    "projects",
+    "summary"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Flask",
+   "category": "framework",
+   "category_label": "Framework",
+   "sections": [
+    "projects",
+    "skills"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Hibernate",
+   "category": "framework",
+   "category_label": "Framework",
+   "sections": [
+    "projects",
+    "skills"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "React",
+   "category": "framework",
+   "category_label": "Framework",
+   "sections": [
+    "projects",
+    "skills"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Spring Boot",
+   "category": "framework",
+   "category_label": "Framework",
+   "sections": [
+    "experience",
+    "projects",
+    "skills",
+    "summary"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Java",
+   "category": "language",
+   "category_label": "Programming language",
+   "sections": [
+    "certifications",
+    "experience",
+    "projects",
+    "skills",
+    "summary"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "JavaScript",
+   "category": "language",
+   "category_label": "Programming language",
+   "sections": [
+    "skills"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Python",
+   "category": "language",
+   "category_label": "Programming language",
+   "sections": [
+    "projects",
+    "skills"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "SQL",
+   "category": "language",
+   "category_label": "Programming language",
+   "sections": [
+    "skills"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Matplotlib",
+   "category": "library",
+   "category_label": "Library",
+   "sections": [
+    "projects"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Agile",
+   "category": "methodology",
+   "category_label": "Methodology",
+   "sections": [
+    "experience"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Code Review",
+   "category": "methodology",
+   "category_label": "Methodology",
+   "sections": [
+    "experience"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "JUnit",
+   "category": "testing",
+   "category_label": "Testing",
+   "sections": [
+    "experience"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Git",
+   "category": "tool",
+   "category_label": "Development tool",
+   "sections": [
+    "skills"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "GitHub",
+   "category": "tool",
+   "category_label": "Development tool",
+   "sections": [
+    "skills"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "IntelliJ IDEA",
+   "category": "tool",
+   "category_label": "Development tool",
+   "sections": [
+    "skills"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Linux",
+   "category": "tool",
+   "category_label": "Development tool",
+   "sections": [
+    "skills"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Maven",
+   "category": "tool",
+   "category_label": "Development tool",
+   "sections": [
+    "skills"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Postman",
+   "category": "tool",
+   "category_label": "Development tool",
+   "sections": [
+    "certifications",
+    "skills"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Swagger",
+   "category": "tool",
+   "category_label": "Development tool",
+   "sections": [
+    "projects"
+   ],
+   "confirmed": true
+  },
+  {
+   "skill": "Render",
+   "category": "cloud",
+   "category_label": "Cloud / hosting",
+   "sections": [
+    "projects"
+   ],
+   "confirmed": false
+  },
+  {
+   "skill": "Oracle Database",
+   "category": "database",
+   "category_label": "Database",
+   "sections": [
+    "certifications"
+   ],
+   "confirmed": false
+  }
+ ],
+ "alignments": [
+  {
+   "requirement": "Design and develop RESTful APIs using Java and Spring Boot.",
+   "kind": "responsibility",
+   "importance": "required",
+   "best_evidence": {
+    "text": "Computer science student focused on backend engineering with Java and Spring Boot. Enjoys designing clean REST APIs, writing tests and deploying small services with Docker.",
+    "section": "summary",
+    "section_label": "Summary"
+   },
+   "similarity": 0.6883,
+   "score": 97.7,
+   "classification": "strong"
+  },
+  {
+   "requirement": "Write unit and integration tests to keep our services reliable.",
+   "kind": "responsibility",
+   "importance": "required",
+   "best_evidence": {
+    "text": "Wrote JUnit tests for the service layer and fixed 12 production bugs reported by QA.",
+    "section": "experience",
+    "section_label": "Experience"
+   },
+   "similarity": 0.4939,
+   "score": 58.8,
+   "classification": "moderate"
+  },
+  {
+   "requirement": "Work with PostgreSQL to model data and write efficient SQL queries.",
+   "kind": "responsibility",
+   "importance": "required",
+   "best_evidence": {
+    "text": "CGPA 8.6/10. Coursework: Data Structures, Algorithms, Database Management Systems, Operating Systems.",
+    "section": "education",
+    "section_label": "Education"
+   },
+   "similarity": 0.4382,
+   "score": 47.6,
+   "classification": "moderate"
+  },
+  {
+   "requirement": "Collaborate with frontend engineers and product managers in an Agile team.",
+   "kind": "responsibility",
+   "importance": "required",
+   "best_evidence": {
+    "text": "Collaborated with a cross-functional team in two-week Agile sprints and took part in code reviews.",
+    "section": "experience",
+    "section_label": "Experience"
+   },
+   "similarity": 0.536,
+   "score": 67.2,
+   "classification": "moderate"
+  },
+  {
+   "requirement": "Participate in code reviews and help improve CI/CD pipelines.",
+   "kind": "responsibility",
+   "importance": "required",
+   "best_evidence": {
+    "text": "Collaborated with a cross-functional team in two-week Agile sprints and took part in code reviews.",
+    "section": "experience",
+    "section_label": "Experience"
+   },
+   "similarity": 0.4415,
+   "score": 48.3,
+   "classification": "moderate"
+  },
+  {
+   "requirement": "Pursuing or recently completed a Bachelor's degree in Computer Science or a related field.",
+   "kind": "requirement",
+   "importance": "required",
+   "best_evidence": {
+    "text": "B.Tech in Computer Science and Engineering, Example Institute of Technology, Pune 2022 - 2026",
+    "section": "education",
+    "section_label": "Education"
+   },
+   "similarity": 0.4679,
+   "score": 53.6,
+   "classification": "moderate"
+  },
+  {
+   "requirement": "Strong knowledge of Java and object-oriented programming.",
+   "kind": "requirement",
+   "importance": "required",
+   "best_evidence": {
+    "text": "Oracle Certified Associate, Java SE 8 Programmer",
+    "section": "certifications",
+    "section_label": "Certifications"
+   },
+   "similarity": 0.4868,
+   "score": 57.4,
+   "classification": "moderate"
+  },
+  {
+   "requirement": "Experience with Spring Boot and Hibernate or JPA.",
+   "kind": "requirement",
+   "importance": "required",
+   "best_evidence": {
+    "text": "Campus Library Management System | Java, Spring Boot, MySQL, Hibernate",
+    "section": "projects",
+    "section_label": "Projects"
+   },
+   "similarity": 0.6571,
+   "score": 91.4,
+   "classification": "strong"
+  },
+  {
+   "requirement": "Familiarity with relational databases such as PostgreSQL.",
+   "kind": "requirement",
+   "importance": "required",
+   "best_evidence": {
+    "text": "Databases: MySQL, MongoDB",
+    "section": "skills",
+    "section_label": "Skills"
+   },
+   "similarity": 0.4805,
+   "score": 56.1,
+   "classification": "moderate"
+  },
+  {
+   "requirement": "Understanding of REST APIs and JSON.",
+   "kind": "requirement",
+   "importance": "required",
+   "best_evidence": {
+    "text": "Postman API Fundamentals Student Expert",
+    "section": "certifications",
+    "section_label": "Certifications"
+   },
+   "similarity": 0.457,
+   "score": 51.4,
+   "classification": "moderate"
+  },
+  {
+   "requirement": "Experience with Git and Maven.",
+   "kind": "requirement",
+   "importance": "required",
+   "best_evidence": {
+    "text": "Tools: Git, GitHub, Maven, Postman, Linux, IntelliJ IDEA",
+    "section": "skills",
+    "section_label": "Skills"
+   },
+   "similarity": 0.7517,
+   "score": 100.0,
+   "classification": "strong"
+  },
+  {
+   "requirement": "0-1 years of professional experience.",
+   "kind": "requirement",
+   "importance": "required",
+   "best_evidence": {
+    "text": "Oracle Certified Associate, Java SE 8 Programmer",
+    "section": "certifications",
+    "section_label": "Certifications"
+   },
+   "similarity": 0.3202,
+   "score": 24.0,
+   "classification": "weak"
+  },
+  {
+   "requirement": "Good communication and problem-solving skills.",
+   "kind": "requirement",
+   "importance": "required",
+   "best_evidence": {
+    "text": "Computer science student focused on backend engineering with Java and Spring Boot. Enjoys designing clean REST APIs, writing tests and deploying small services with Docker.",
+    "section": "summary",
+    "section_label": "Summary"
+   },
+   "similarity": 0.2566,
+   "score": 11.3,
+   "classification": "weak"
+  },
+  {
+   "requirement": "Experience with Docker or Kubernetes.",
+   "kind": "requirement",
+   "importance": "preferred",
+   "best_evidence": {
+    "text": "Computer science student focused on backend engineering with Java and Spring Boot. Enjoys designing clean REST APIs, writing tests and deploying small services with Docker.",
+    "section": "summary",
+    "section_label": "Summary"
+   },
+   "similarity": 0.5193,
+   "score": 63.9,
+   "classification": "moderate"
+  },
+  {
+   "requirement": "Exposure to AWS.",
+   "kind": "requirement",
+   "importance": "preferred",
+   "best_evidence": {
+    "text": "Computer science student focused on backend engineering with Java and Spring Boot. Enjoys designing clean REST APIs, writing tests and deploying small services with Docker.",
+    "section": "summary",
+    "section_label": "Summary"
+   },
+   "similarity": 0.2874,
+   "score": 17.5,
+   "classification": "weak"
+  },
+  {
+   "requirement": "Knowledge of Kafka or RabbitMQ.",
+   "kind": "requirement",
+   "importance": "preferred",
+   "best_evidence": {
+    "text": "CGPA 8.6/10. Coursework: Data Structures, Algorithms, Database Management Systems, Operating Systems.",
+    "section": "education",
+    "section_label": "Education"
+   },
+   "similarity": 0.2799,
+   "score": 16.0,
+   "classification": "weak"
+  },
+  {
+   "requirement": "Familiarity with React is a plus.",
+   "kind": "requirement",
+   "importance": "preferred",
+   "best_evidence": {
+    "text": "Frameworks: Spring Boot, Hibernate, React, Flask",
+    "section": "skills",
+    "section_label": "Skills"
+   },
+   "similarity": 0.3148,
+   "score": 23.0,
+   "classification": "weak"
+  }
+ ],
+ "projects": [
+  {
+   "rank": 1,
+   "name": "Campus Library Management System",
+   "header": "Campus Library Management System | Java, Spring Boot, MySQL, Hibernate",
+   "relevance_score": 44.7,
+   "skill_coverage_score": 34.4,
+   "semantic_score": 60.3,
+   "technologies": [
+    "Authentication",
+    "Docker",
+    "Hibernate",
+    "Integration Testing",
+    "Java",
+    "JWT",
+    "MySQL",
+    "REST APIs",
+    "Spring Boot",
+    "Swagger"
+   ],
+   "matched_requirements": [
+    {
+     "skill": "Java",
+     "importance": "required"
+    },
+    {
+     "skill": "Hibernate",
+     "importance": "required"
+    },
+    {
+     "skill": "Spring Boot",
+     "importance": "required"
+    },
+    {
+     "skill": "Integration Testing",
+     "importance": "required"
+    },
+    {
+     "skill": "REST APIs",
+     "importance": "required"
+    },
+    {
+     "skill": "Docker",
+     "importance": "preferred"
+    }
+   ],
+   "related_statements": [
+    {
+     "text": "Design and develop RESTful APIs using Java and Spring Boot.",
+     "similarity": 0.522
+    },
+    {
+     "text": "Experience with Docker or Kubernetes.",
+     "similarity": 0.4968
+    },
+    {
+     "text": "Experience with Spring Boot and Hibernate or JPA.",
+     "similarity": 0.4854
+    }
+   ],
+   "evidence": [
+    "Modelled 8 relational tables with Hibernate and wrote integration tests for the borrowing workflow.",
+    "Containerized the application with Docker and documented the API with Swagger."
+   ],
+   "missing_evidence": [
+    "No evidence of SQL in this project.",
+    "No evidence of PostgreSQL in this project.",
+    "No evidence of Git in this project.",
+    "No evidence of Maven in this project."
+   ],
+   "explanation": "Ranked #1 because it demonstrates 5 of 14 required skills (Java, Hibernate, Spring Boot, Integration Testing, REST APIs); covers preferred skills Docker; its description closely matches 3 job statement(s), e.g. \"Design and develop RESTful APIs using Java and Spring Boot.\".",
+   "future_improvements": [
+    "Possible future enhancement: implement a component in SQL. Only list it after you have built it.",
+    "Possible future enhancement: persist its data in PostgreSQL. Only list it after you have built it.",
+    "Possible future enhancement: use Git in the development workflow. Only list it after you have built it."
+   ]
+  },
+  {
+   "rank": 2,
+   "name": "Expense Splitter Web App",
+   "header": "Expense Splitter Web App | React, Flask, MongoDB",
+   "relevance_score": 8.1,
+   "skill_coverage_score": 3.1,
+   "semantic_score": 15.5,
+   "technologies": [
+    "Flask",
+    "MongoDB",
+    "React"
+   ],
+   "matched_requirements": [
+    {
+     "skill": "React",
+     "importance": "preferred"
+    }
+   ],
+   "related_statements": [],
+   "evidence": [
+    "Built a React front end and a Flask API that splits shared expenses between group members."
+   ],
+   "missing_evidence": [
+    "No evidence of Java in this project.",
+    "No evidence of SQL in this project.",
+    "No evidence of Hibernate in this project.",
+    "No evidence of Spring Boot in this project."
+   ],
+   "explanation": "Ranked #2 because it covers preferred skills React.",
+   "future_improvements": [
+    "Possible future enhancement: implement a component in Java. Only list it after you have built it.",
+    "Possible future enhancement: implement a component in SQL. Only list it after you have built it.",
+    "Possible future enhancement: extend it with a feature built on Hibernate. Only list it after you have built it."
+   ]
+  },
+  {
+   "rank": 3,
+   "name": "Sentiment Analyzer for Product Reviews",
+   "header": "Sentiment Analyzer for Product Reviews | Python, scikit-learn",
+   "relevance_score": 0.0,
+   "skill_coverage_score": 0.0,
+   "semantic_score": 0.0,
+   "technologies": [
+    "Matplotlib",
+    "NLTK",
+    "Python",
+    "scikit-learn"
+   ],
+   "matched_requirements": [],
+   "related_statements": [],
+   "evidence": [
+    "Trained a logistic regression classifier on 20,000 public product reviews with 87% validation accuracy.",
+    "Built text preprocessing with NLTK and visualised results with Matplotlib."
+   ],
+   "missing_evidence": [
+    "No evidence of Java in this project.",
+    "No evidence of SQL in this project.",
+    "No evidence of Hibernate in this project.",
+    "No evidence of Spring Boot in this project."
+   ],
+   "explanation": "Ranked #3: this project shows little overlap with the posting's skill requirements and its description is not closely related to the listed responsibilities.",
+   "future_improvements": [
+    "Possible future enhancement: implement a component in Java. Only list it after you have built it.",
+    "Possible future enhancement: implement a component in SQL. Only list it after you have built it.",
+    "Possible future enhancement: extend it with a feature built on Hibernate. Only list it after you have built it."
+   ]
+  }
+ ],
+ "experience": {
+  "status": "met",
+  "required_min_years": 0.0,
+  "estimated_months": 3,
+  "date_ranges": [
+   "Jun 2025 - Aug 2025"
+  ],
+  "explanation": "The posting accepts candidates with no prior experience: \"0-1 years of professional experience.\"."
+ },
+ "qualifications": [
+  {
+   "kind": "education",
+   "requirement": "Pursuing or recently completed a Bachelor's degree in Computer Science or a related field.",
+   "status": "likely_met",
+   "resume_evidence": {
+    "text": "B.Tech in Computer Science and Engineering, Example Institute of Technology, Pune 2022 - 2026",
+    "section": "education",
+    "section_label": "Education"
+   },
+   "reasoning": "A matching degree level appears in your education section (it may still be in progress). Confirm the field of study matches the posting."
+  }
+ ],
+ "competencies": [
+  {
+   "name": "Communication",
+   "importance": "required",
+   "found": false,
+   "evidence": null,
+   "job_evidence": "Good communication and problem-solving skills."
+  },
+  {
+   "name": "Problem Solving",
+   "importance": "required",
+   "found": false,
+   "evidence": null,
+   "job_evidence": "Good communication and problem-solving skills."
+  },
+  {
+   "name": "Teamwork",
+   "importance": "required",
+   "found": true,
+   "evidence": {
+    "text": "Collaborated with a cross-functional team in two-week Agile sprints and took part in code reviews.",
+    "section": "experience",
+    "section_label": "Experience"
+   },
+   "job_evidence": "Collaborate with frontend engineers and product managers in an Agile team."
+  }
+ ],
+ "recommendations": [
+  {
+   "category": "learn",
+   "priority": "high",
+   "title": "Close the gap on CI/CD",
+   "detail": "The posting lists CI/CD as required, and it was not found in your resume. If you have used it, add a specific example. If not, it is a strong candidate to learn next.",
+   "grounding": [
+    "Job: Participate in code reviews and help improve CI/CD pipelines."
+   ]
+  },
+  {
+   "category": "learn",
+   "priority": "high",
+   "title": "Close the gap on JSON",
+   "detail": "The posting lists JSON as required, and it was not found in your resume. If you have used it, add a specific example. If not, it is a strong candidate to learn next.",
+   "grounding": [
+    "Job: Understanding of REST APIs and JSON."
+   ]
+  },
+  {
+   "category": "learn",
+   "priority": "high",
+   "title": "Close the gap on Object-Oriented Programming",
+   "detail": "The posting lists Object-Oriented Programming as required, and it was not found in your resume. If you have used it, add a specific example. If not, it is a strong candidate to learn next.",
+   "grounding": [
+    "Job: Strong knowledge of Java and object-oriented programming."
+   ]
+  },
+  {
+   "category": "evidence",
+   "priority": "high",
+   "title": "Show listed skills in action",
+   "detail": "SQL, Git, Maven appear only in your skills list. Recruiters and screening tools trust skills that are tied to a project or role. Add a bullet describing how you used each one, if that is accurate.",
+   "grounding": [
+    "Resume: Languages: Java, Python, SQL, JavaScript",
+    "Resume: Tools: Git, GitHub, Maven, Postman, Linux, IntelliJ IDEA"
+   ]
+  },
+  {
+   "category": "project",
+   "priority": "high",
+   "title": "Lead with \"Campus Library Management System\"",
+   "detail": "This is your most relevant project for this role: it demonstrates Java, Hibernate, Spring Boot, Integration Testing, REST APIs. Place it first in your projects section and make the outcome measurable where you can do so truthfully.",
+   "grounding": [
+    "Resume: Modelled 8 relational tables with Hibernate and wrote integration tests for the borrowing workflow.",
+    "Resume: Containerized the application with Docker and documented the API with Swagger."
+   ]
+  },
+  {
+   "category": "highlight",
+   "priority": "medium",
+   "title": "Bridge MySQL to PostgreSQL",
+   "detail": "The posting asks for PostgreSQL; your resume shows MySQL, which is related but not equivalent. Present it as transferable experience, and name PostgreSQL only if you have actually used it.",
+   "grounding": [
+    "Job: Work with PostgreSQL to model data and write efficient SQL queries.",
+    "Resume: Optimised slow MySQL queries by adding indexes, reducing report generation time from 9s to 2s."
+   ]
+  },
+  {
+   "category": "project",
+   "priority": "low",
+   "title": "Trim less relevant projects for this application",
+   "detail": "Sentiment Analyzer for Product Reviews show little overlap with this posting. Consider shortening them to make room for more relevant detail.",
+   "grounding": [
+    "Resume project: Sentiment Analyzer for Product Reviews | Python, scikit-learn"
+   ]
+  },
+  {
+   "category": "learn",
+   "priority": "low",
+   "title": "Optional skills that would strengthen the application",
+   "detail": "The posting marks these as preferred: AWS, Apache Kafka.",
+   "grounding": [
+    "Job: Exposure to AWS.",
+    "Job: Knowledge of Kafka or RabbitMQ."
+   ]
+  }
+ ],
+ "resume_sections": {
+  "detected": [
+   "Header",
+   "Summary",
+   "Education",
+   "Skills",
+   "Experience",
+   "Projects",
+   "Certifications",
+   "Achievements"
+  ],
+  "missing": []
+ },
+ "warnings": [],
+ "limitations": [
+  "The score measures how well the resume text aligns with this job description. It is not a probability of being interviewed or hired.",
+  "Skills are recognised from a curated taxonomy. Technologies outside the taxonomy are only matched when you add them as custom requirements.",
+  "A skill that is missing from the resume does not mean the candidate lacks it - only that the document does not show it.",
+  "Semantic similarity (all-MiniLM-L6-v2) measures how related two pieces of text are, not competence. Passages longer than ~256 word pieces are truncated by the model.",
+  "Experience duration is estimated from date ranges found in the experience section and may be inaccurate for unusual date formats.",
+  "Education and certification requirements are reported for manual review and are not part of the numeric score.",
+  "The analysis is designed for English-language resumes and job descriptions."
+ ],
+ "methodology": [
+  {
+   "title": "Keyword matching vs. semantic similarity",
+   "body": "Keyword matching recognises explicit skills (with aliases such as 'Postgres' \u2192 PostgreSQL) and is the only way a skill is credited. Semantic similarity compares the meaning of sentences using a sentence-embedding model and cosine similarity, so 'built REST endpoints' can align with 'develop RESTful services' even without shared keywords. Semantic similarity informs alignment scores but never credits a specific skill on its own."
+  },
+  {
+   "title": "Component weights",
+   "body": "Required skills 35%, preferred skills 10%, semantic similarity 20%, project relevance 15%, experience alignment 10%, evidence strength 10%. Components that do not apply are excluded and their weight is redistributed proportionally."
+  },
+  {
+   "title": "Credit rules",
+   "body": "Each requirement counts once. An explicit match earns full credit; a related but distinct technology earns 40% partial credit; ambiguous or missing evidence earns none. Preferred requirements count 50% as much as required ones where they are combined. 'A or B' requirements are satisfied by either option."
+  },
+  {
+   "title": "Similarity calibration",
+   "body": "Raw cosine similarities are linearly rescaled from [0.2, 0.7] to [0, 100] and clamped. Statements are classed as strong (\u2265 0.55), moderate (\u2265 0.4) or weak alignment."
+  },
+  {
+   "title": "Determinism and versioning",
+   "body": "Results are deterministic for the same inputs, model, taxonomy and scoring version 1.0.0. The version identifiers are stored with every saved analysis so older reports remain interpretable."
+  }
+ ],
+ "input_fingerprint": "592fa8eb1327980815d6eb108d15191a7f47e917d293e4f15a52713cd5e686fe"
+}

@@ -1,0 +1,30 @@
+Java Backend Developer Intern
+
+About us
+Example Cloud Labs builds payment reconciliation software for mid-sized banks. We offer a hybrid workplace and great snacks.
+
+What you'll do
+- Design and develop RESTful APIs using Java and Spring Boot.
+- Write unit and integration tests to keep our services reliable.
+- Work with PostgreSQL to model data and write efficient SQL queries.
+- Collaborate with frontend engineers and product managers in an Agile team.
+- Participate in code reviews and help improve CI/CD pipelines.
+
+Requirements
+- Pursuing or recently completed a Bachelor's degree in Computer Science or a related field.
+- Strong knowledge of Java and object-oriented programming.
+- Experience with Spring Boot and Hibernate or JPA.
+- Familiarity with relational databases such as PostgreSQL.
+- Understanding of REST APIs and JSON.
+- Experience with Git and Maven.
+- 0-1 years of professional experience.
+- Good communication and problem-solving skills.
+
+Nice to have
+- Experience with Docker or Kubernetes.
+- Exposure to AWS.
+- Knowledge of Kafka or RabbitMQ.
+- Familiarity with React is a plus.
+
+Benefits
+- Monthly stipend, learning budget and mentorship.

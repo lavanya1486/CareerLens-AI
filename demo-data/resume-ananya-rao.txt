@@ -1,0 +1,44 @@
+Ananya Rao
+Pune, India | ananya.rao@example.com | github.com/example-ananya
+(Synthetic demo profile - not a real person)
+
+SUMMARY
+Computer science student focused on backend engineering with Java and Spring Boot. Enjoys designing clean REST APIs, writing tests and deploying small services with Docker.
+
+EDUCATION
+B.Tech in Computer Science and Engineering, Example Institute of Technology, Pune    2022 - 2026
+CGPA 8.6/10. Coursework: Data Structures, Algorithms, Database Management Systems, Operating Systems.
+
+TECHNICAL SKILLS
+Languages: Java, Python, SQL, JavaScript
+Frameworks: Spring Boot, Hibernate, React, Flask
+Databases: MySQL, MongoDB
+Tools: Git, GitHub, Maven, Postman, Linux, IntelliJ IDEA
+
+EXPERIENCE
+Software Engineering Intern | Example Fintech Pvt. Ltd.    Jun 2025 - Aug 2025
+- Built REST APIs in Java with Spring Boot for an internal loan-tracking dashboard used by 40 analysts.
+- Wrote JUnit tests for the service layer and fixed 12 production bugs reported by QA.
+- Optimised slow MySQL queries by adding indexes, reducing report generation time from 9s to 2s.
+- Collaborated with a cross-functional team in two-week Agile sprints and took part in code reviews.
+
+PROJECTS
+Campus Library Management System | Java, Spring Boot, MySQL, Hibernate
+- Designed a RESTful backend with JWT authentication and role-based access for students and librarians.
+- Modelled 8 relational tables with Hibernate and wrote integration tests for the borrowing workflow.
+- Containerized the application with Docker and documented the API with Swagger.
+
+Expense Splitter Web App | React, Flask, MongoDB
+- Built a React front end and a Flask API that splits shared expenses between group members.
+- Stored groups and transactions in MongoDB and deployed the app on Render.
+
+Sentiment Analyzer for Product Reviews | Python, scikit-learn
+- Trained a logistic regression classifier on 20,000 public product reviews with 87% validation accuracy.
+- Built text preprocessing with NLTK and visualised results with Matplotlib.
+
+CERTIFICATIONS
+Oracle Certified Associate, Java SE 8 Programmer
+Postman API Fundamentals Student Expert
+
+ACHIEVEMENTS
+Finalist, Example University Hackathon 2024 (team of 4).

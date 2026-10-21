@@ -1,0 +1,121 @@
+{
+ "sections": [
+  {
+   "key": "header",
+   "label": "Header",
+   "heading": null,
+   "text": "Ananya Rao\nPune, India | ananya.rao@example.com | github.com/example-ananya\n(Synthetic demo profile - not a real person)"
+  },
+  {
+   "key": "summary",
+   "label": "Summary",
+   "heading": "SUMMARY",
+   "text": "Computer science student focused on backend engineering with Java and Spring Boot. Enjoys designing clean REST APIs, writing tests and deploying small services with Docker."
+  },
+  {
+   "key": "education",
+   "label": "Education",
+   "heading": "EDUCATION",
+   "text": "B.Tech in Computer Science and Engineering, Example Institute of Technology, Pune 2022 - 2026\nCGPA 8.6/10. Coursework: Data Structures, Algorithms, Database Management Systems, Operating Systems."
+  },
+  {
+   "key": "skills",
+   "label": "Skills",
+   "heading": "TECHNICAL SKILLS",
+   "text": "Languages: Java, Python, SQL, JavaScript\nFrameworks: Spring Boot, Hibernate, React, Flask\nDatabases: MySQL, MongoDB\nTools: Git, GitHub, Maven, Postman, Linux, IntelliJ IDEA"
+  },
+  {
+   "key": "experience",
+   "label": "Experience",
+   "heading": "EXPERIENCE",
+   "text": "Software Engineering Intern | Example Fintech Pvt. Ltd. Jun 2025 - Aug 2025\n- Built REST APIs in Java with Spring Boot for an internal loan-tracking dashboard used by 40 analysts.\n- Wrote JUnit tests for the service layer and fixed 12 production bugs reported by QA.\n- Optimised slow MySQL queries by adding indexes, reducing report generation time from 9s to 2s.\n- Collaborated with a cross-functional team in two-week Agile sprints and took part in code reviews."
+  },
+  {
+   "key": "projects",
+   "label": "Projects",
+   "heading": "PROJECTS",
+   "text": "Campus Library Management System | Java, Spring Boot, MySQL, Hibernate\n- Designed a RESTful backend with JWT authentication and role-based access for students and librarians.\n- Modelled 8 relational tables with Hibernate and wrote integration tests for the borrowing workflow.\n- Containerized the application with Docker and documented the API with Swagger.\n\nExpense Splitter Web App | React, Flask, MongoDB\n- Built a React front end and a Flask API that splits shared expenses between group members.\n- Stored groups and transactions in MongoDB and deployed the app on Render.\n\nSentiment Analyzer for Product Reviews | Python, scikit-learn\n- Trained a logistic regression classifier on 20,000 public product reviews with 87% validation accuracy.\n- Built text preprocessing with NLTK and visualised results with Matplotlib."
+  },
+  {
+   "key": "certifications",
+   "label": "Certifications",
+   "heading": "CERTIFICATIONS",
+   "text": "Oracle Certified Associate, Java SE 8 Programmer\nPostman API Fundamentals Student Expert"
+  },
+  {
+   "key": "achievements",
+   "label": "Achievements",
+   "heading": "ACHIEVEMENTS",
+   "text": "Finalist, Example University Hackathon 2024 (team of 4)."
+  }
+ ],
+ "detected": [
+  "Header",
+  "Summary",
+  "Education",
+  "Skills",
+  "Experience",
+  "Projects",
+  "Certifications",
+  "Achievements"
+ ],
+ "missing": [],
+ "projects": [
+  {
+   "title": "Campus Library Management System",
+   "section": "projects",
+   "lines": 3
+  },
+  {
+   "title": "Expense Splitter Web App",
+   "section": "projects",
+   "lines": 2
+  },
+  {
+   "title": "Sentiment Analyzer for Product Reviews",
+   "section": "projects",
+   "lines": 2
+  }
+ ],
+ "experience": [
+  {
+   "title": "Software Engineering Intern",
+   "section": "experience",
+   "lines": 4
+  }
+ ],
+ "skills": [
+  "Agile",
+  "Algorithms",
+  "Authentication",
+  "Code Review",
+  "Data Structures",
+  "Docker",
+  "Flask",
+  "Git",
+  "GitHub",
+  "Hibernate",
+  "Integration Testing",
+  "IntelliJ IDEA",
+  "Java",
+  "JavaScript",
+  "JUnit",
+  "JWT",
+  "Linux",
+  "Matplotlib",
+  "Maven",
+  "MongoDB",
+  "MySQL",
+  "NLTK",
+  "Postman",
+  "Python",
+  "React",
+  "REST APIs",
+  "scikit-learn",
+  "Spring Boot",
+  "SQL",
+  "Swagger",
+  "Teamwork"
+ ],
+ "word_count": 310
+}

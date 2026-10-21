@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: ${TEST_DATABASE_URL:jdbc:postgresql://localhost:5432/careerlens_test}
+    username: ${TEST_DATABASE_USERNAME:careerlens}
+    password: ${TEST_DATABASE_PASSWORD:careerlens_dev}
+    hikari:
+      maximum-pool-size: 5
+  flyway:
+    clean-disabled: false
+app:
+  jwt:
+    secret: integration-test-secret-0123456789abcdef0123456789
+  ai-service:
+    connect-timeout: 1s
+    read-timeout: 3s
+    retry-backoff: 20ms
+  rate-limits:
+    auth-per-minute: 1000
+    upload-per-minute: 1000
+    analysis-per-minute: 1000
+    extract-per-minute: 1000
+    report-per-minute: 1000
+  retention:
+    cleanup-cron: "-"
+logging:
+  level:
+    root: WARN
+    com.careerlens: WARN
